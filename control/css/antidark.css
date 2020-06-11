@@ -1,0 +1,152 @@
+/*
+    note: 扫黑样式
+    write: zx
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width:100%;
+    /* height:100%; */
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-color: #a50a0b;
+    background: url(../../img/bg.png) top center no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    position: relative;
+    margin: 10% auto 0;
+    width: 85%;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content-nofsp {
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.content-nofsp p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fffdee;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.content,
+.infoContent {
+    position: relative;
+    margin: 10px auto;
+    width: 75%;
+}
+
+.infoContent {
+    display: none;
+    height: 30%;
+    /* border: 1px solid; */
+}
+
+.info {
+    font-size: 20px;
+    color: #fffdee;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.content p,
+.content input {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+}
+
+.content p {
+    color: #fffdde;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.content input {
+    color: #222;
+    background-color: rgba(255,255,255,0.6);
+    border: 0;
+    outline: none;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.content-inner {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content-inner img {
+    flex: 2;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.content-inner span {
+    flex: 1;
+    /* color: #a50a0b; */
+    color: #fffdee;
+    border-radius: 5px;
+    border: 0;
+    background-color: green;
+    /* background-color: #fffdee; */
+    font-size: 18px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.commit {
+    /* position: relative; */
+    background-color: #fffdee;
+    color: #a50a0b;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+}
+
+.footer img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* B7962F533D78C762 */
